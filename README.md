@@ -1,6 +1,6 @@
-# Bag_Pack_DIO
+# BagPack_DIO
 Projetos feitos durante o boot decola DEV
-- Repositório criado para os desafios de projetos
+- Em andamento...
 
 
 ## Links Uteis
