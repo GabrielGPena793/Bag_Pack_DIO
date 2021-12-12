@@ -1,5 +1,5 @@
 # BagPack_DIO
-Projetos feitos durante o boot decola DEV
+Projetos feitos durante o BootCamp Decola Tech 2a edição
 - Em andamento...
 
 
