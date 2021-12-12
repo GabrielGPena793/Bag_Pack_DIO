@@ -1,6 +1,6 @@
 # Bag_Pack_DIO
 Projetos feitos durante o boot decola DEV
-- Desafio sobre git/github
+- Repositório criado para os desafios de projetos
 
 
 ## Links Uteis
