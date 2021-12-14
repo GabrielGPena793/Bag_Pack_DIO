@@ -1,0 +1,15 @@
+/home/penax/Dio/revisao/bin/Debug/net6.0/revisao
+/home/penax/Dio/revisao/bin/Debug/net6.0/revisao.deps.json
+/home/penax/Dio/revisao/bin/Debug/net6.0/revisao.runtimeconfig.json
+/home/penax/Dio/revisao/bin/Debug/net6.0/revisao.dll
+/home/penax/Dio/revisao/bin/Debug/net6.0/ref/revisao.dll
+/home/penax/Dio/revisao/bin/Debug/net6.0/revisao.pdb
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.csproj.AssemblyReference.cache
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.GeneratedMSBuildEditorConfig.editorconfig
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.AssemblyInfoInputs.cache
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.AssemblyInfo.cs
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.csproj.CoreCompileInputs.cache
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.dll
+/home/penax/Dio/revisao/obj/Debug/net6.0/ref/revisao.dll
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.pdb
+/home/penax/Dio/revisao/obj/Debug/net6.0/revisao.genruntimeconfig.cache
