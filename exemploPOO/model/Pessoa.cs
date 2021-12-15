@@ -6,8 +6,6 @@ namespace exemploPOO.model
 
         public int Idade { get; set; }
 
-        public  Pessoa(){}
-
         public virtual void Apresentar()
         {
             Console.WriteLine($"Olá meu nome é {this.Nome}, e minha idade é {this.Idade} anos");
