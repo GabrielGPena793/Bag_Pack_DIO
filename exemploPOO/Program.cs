@@ -23,8 +23,8 @@ namespace exemploPOO
 
             Calculadora calculadora = new Calculadora();
 
-            System.Console.WriteLine($" Resultado da primeira soma {calculadora.somar(5,10)}");
-            System.Console.WriteLine($" Resultado da segunda soma {calculadora.somar(5,10,20)}");
+            System.Console.WriteLine($"Resultado da primeira soma {calculadora.somar(5,10)}");
+            System.Console.WriteLine($"Resultado da segunda soma {calculadora.somar(5,10,20)}");
 
 
 
