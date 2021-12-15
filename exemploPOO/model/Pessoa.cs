@@ -8,7 +8,7 @@ namespace exemploPOO.model
 
         public  Pessoa(){}
 
-        public void Apresentar()
+        public virtual void Apresentar()
         {
             Console.WriteLine($"Olá meu nome é {this.Nome}, e minha idade é {this.Idade} anos");
         }

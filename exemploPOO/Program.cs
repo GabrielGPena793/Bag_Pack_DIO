@@ -21,6 +21,10 @@ namespace exemploPOO
             professor.Salario = 4000;
             professor.Apresentar();
 
+            Calculadora calculadora = new Calculadora();
+
+            System.Console.WriteLine($" Resultado da primeira soma {calculadora.somar(5,10)}");
+            System.Console.WriteLine($" Resultado da segunda soma {calculadora.somar(5,10,20)}");
 
 
 
