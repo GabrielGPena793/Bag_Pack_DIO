@@ -27,11 +27,19 @@ namespace exemploPOO
             // System.Console.WriteLine($"Resultado da segunda soma {calculadora.somar(5,10,20)}");
 
 
-            Conta conta = new ContaCorrente();
+            // Conta conta = new ContaCorrente();
 
-            conta.Creditar(200);
-            conta.ExibirSaldo();
-            
+            // conta.Creditar(200);
+            // conta.ExibirSaldo();
+
+            ICalculadora calc = new Calculadora();
+
+            System.Console.WriteLine(calc.Somar(20,30));
+            System.Console.WriteLine(calc.Subtrair(20,30));
+            System.Console.WriteLine(calc.Dividir(20,2));
+            System.Console.WriteLine(calc.Multiplicar(20,30));
+
+
 
 
         }
