@@ -2,18 +2,18 @@ namespace exemploPOO.model
 {
     public class Retangulo
     {
-        private double comprimento;
-        private double largura;
+        private double Comprimento;
+        private double Largura;
 
         private bool valido;
 
         
-        public void DefinirMedidas(double comprimento, double largura){
+        public void DefinirMedidas(double Comprimento, double Largura){
 
-            if(comprimento > 0 && largura > 0)
+            if(Comprimento > 0 && Largura > 0)
             {
-                this.comprimento = comprimento;
-                this.largura = largura;
+                this.Comprimento = Comprimento;
+                this.Largura = Largura;
                 this.valido = true;
             }
             else
@@ -26,7 +26,7 @@ namespace exemploPOO.model
 
             if(this.valido)
             {
-                return this.comprimento * this.largura;
+                return this.Comprimento * this.Largura;
             }
             else
             {

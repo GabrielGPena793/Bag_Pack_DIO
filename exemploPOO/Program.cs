@@ -8,16 +8,18 @@ namespace exemploPOO
         static void Main(string[] args)
         {
   
-            //valores válidos
-            Retangulo retangulo2 = new Retangulo();
-            retangulo2.DefinirMedidas(100,20);
-            Console.WriteLine($"Área: {retangulo2.ObterArea()}");
+            Aluno aluno = new Aluno();
+            aluno.Idade = 25;
+            aluno.Nome =  "Jorge";
+            aluno.nota = 9;
+            aluno.Apresentar();
 
-            //valores inválidos
-            Retangulo retangulo = new Retangulo();
-            retangulo.DefinirMedidas(0,20);
-            Console.WriteLine($"Área: {retangulo.ObterArea()}");
-
+            
+            Professor professor = new Professor();
+            professor.Idade = 42;
+            professor.Nome =  "Dioclecio";
+            professor.Salario = 4000;
+            professor.Apresentar();
 
 
 
