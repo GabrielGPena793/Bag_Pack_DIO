@@ -1,0 +1,15 @@
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/bin/Debug/net6.0/exemploPOO
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/bin/Debug/net6.0/exemploPOO.deps.json
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/bin/Debug/net6.0/exemploPOO.runtimeconfig.json
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/bin/Debug/net6.0/exemploPOO.dll
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/bin/Debug/net6.0/ref/exemploPOO.dll
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/bin/Debug/net6.0/exemploPOO.pdb
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.csproj.AssemblyReference.cache
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.GeneratedMSBuildEditorConfig.editorconfig
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.AssemblyInfoInputs.cache
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.AssemblyInfo.cs
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.csproj.CoreCompileInputs.cache
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.dll
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/ref/exemploPOO.dll
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.pdb
+/home/penax/DIO/Bag_Pack_DIO/exemploPOO/obj/Debug/net6.0/exemploPOO.genruntimeconfig.cache
