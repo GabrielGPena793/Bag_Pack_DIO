@@ -6,7 +6,7 @@ namespace exemploPOO.model
 
         public int Idade { get; set; }
 
-        
+        public  Pessoa(){}
 
         public void Apresentar()
         {
