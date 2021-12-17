@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "exemploPOO", "exemploPOO\exemploPOO.csproj", "{4D865800-47A7-4A29-AAB0-77A866784291}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Construtores", "Construtores", "{96C30AF3-C606-4F36-8489-543DDB78436E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExemploContrutores", "Construtores\ExemploContrutores\ExemploContrutores.csproj", "{2681171A-F447-4793-9705-CDA9ADE36E86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,12 @@ Global
 		{4D865800-47A7-4A29-AAB0-77A866784291}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4D865800-47A7-4A29-AAB0-77A866784291}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4D865800-47A7-4A29-AAB0-77A866784291}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2681171A-F447-4793-9705-CDA9ADE36E86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2681171A-F447-4793-9705-CDA9ADE36E86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2681171A-F447-4793-9705-CDA9ADE36E86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2681171A-F447-4793-9705-CDA9ADE36E86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2681171A-F447-4793-9705-CDA9ADE36E86} = {96C30AF3-C606-4F36-8489-543DDB78436E}
 	EndGlobalSection
 EndGlobal
