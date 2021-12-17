@@ -1,0 +1,15 @@
+/home/penax/DIO/colecoes/Colecoes/bin/Debug/net6.0/Colecoes
+/home/penax/DIO/colecoes/Colecoes/bin/Debug/net6.0/Colecoes.deps.json
+/home/penax/DIO/colecoes/Colecoes/bin/Debug/net6.0/Colecoes.runtimeconfig.json
+/home/penax/DIO/colecoes/Colecoes/bin/Debug/net6.0/Colecoes.dll
+/home/penax/DIO/colecoes/Colecoes/bin/Debug/net6.0/ref/Colecoes.dll
+/home/penax/DIO/colecoes/Colecoes/bin/Debug/net6.0/Colecoes.pdb
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.csproj.AssemblyReference.cache
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.GeneratedMSBuildEditorConfig.editorconfig
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.AssemblyInfoInputs.cache
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.AssemblyInfo.cs
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.csproj.CoreCompileInputs.cache
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.dll
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/ref/Colecoes.dll
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.pdb
+/home/penax/DIO/colecoes/Colecoes/obj/Debug/net6.0/Colecoes.genruntimeconfig.cache
