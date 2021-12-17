@@ -6,19 +6,26 @@ namespace ExemploConstutores
     {
         static void Main(string[] args)
         {
-            Log log = Log.GetInstace();
+            // Log log = Log.GetInstace();
 
-            log.PropriedadeLog = "Teste de log";
+            // log.PropriedadeLog = "Teste de log";
 
-            // não vai iniciar uma nova instância, vai retornar a mesma
-            Log log2 = Log.GetInstace();
-            System.Console.WriteLine(log2.PropriedadeLog);
+            // // não vai iniciar uma nova instância, vai retornar a mesma
+            // Log log2 = Log.GetInstace();
+            // System.Console.WriteLine(log2.PropriedadeLog);
             
 
-            Pessoa aluno = new Aluno("Gabriel", "Gomes");
+            // Pessoa aluno = new Aluno("Gabriel", "Gomes");
             // Pessoa pessoa = new Pessoa("Gabriel", "Gomes");
 
             // pessoa.Aprensentar();
+
+            Data data = new Data();
+
+            data.Mes = 12;
+            System.Console.WriteLine(data.Mes);
+
+            data.AprensentarMes();
         }
 
     }
