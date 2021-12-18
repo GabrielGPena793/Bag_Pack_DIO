@@ -9,22 +9,57 @@ namespace Colecoes
         static void Main(string[] args)
         {
 
+            Dictionary<string,string> estados = new Dictionary<string, string>();
+            estados.Add("PE", "Pernambuco");
+            estados.Add("SP", "São Paulo");
+            estados.Add("Rj", "Rio de Janeiro");
 
-            Stack<string> pilhaLivros = new Stack<string>();
+            // foreach (var estado in estados)
+            // {
+            //     System.Console.WriteLine($"Chave: {estado.Key}, Valor: {estado.Value}");
+            // }
 
-            pilhaLivros.Push("Codigo Limpo");
-            pilhaLivros.Push("TDD");
-            pilhaLivros.Push(".NET");
-
-            System.Console.WriteLine($"A quantidade de livros na pilha é {pilhaLivros.Count}");
-
-            while(pilhaLivros.Count > 0)
+            string valorProcurado = "ll";
+            // estados.Remove(valorProcurado);
+            // System.Console.WriteLine($"Removendo o valor {valorProcurado}");
+            
+            // foreach (var estado in estados)
+            // {
+            //     System.Console.WriteLine($"Chave: {estado.Key}, Valor: {estado.Value}");
+            // }
+            
+            if(estados.TryGetValue(valorProcurado, out string? estadoEncontrado))
             {
-                System.Console.WriteLine($"O próximo livro é {pilhaLivros.Peek()}");
-                System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso");
+                System.Console.WriteLine(estadoEncontrado);
             }
+            else
+            {
+                System.Console.WriteLine("Estado não encontarado");
+            }
+            // System.Console.WriteLine("Valor atual");
+            // System.Console.WriteLine(estados[valorProcurado]);
 
-            System.Console.WriteLine($"A quantidade de livros na pilha é {pilhaLivros.Count}");
+            // estados[valorProcurado] =  "São Paulo Atualizado";
+
+            
+            // System.Console.WriteLine("Valor atualizado");
+            // System.Console.WriteLine(estados[valorProcurado]);
+
+            // Stack<string> pilhaLivros = new Stack<string>();
+
+            // pilhaLivros.Push("Codigo Limpo");
+            // pilhaLivros.Push("TDD");
+            // pilhaLivros.Push(".NET");
+
+            // System.Console.WriteLine($"A quantidade de livros na pilha é {pilhaLivros.Count}");
+
+            // while(pilhaLivros.Count > 0)
+            // {
+            //     System.Console.WriteLine($"O próximo livro é {pilhaLivros.Peek()}");
+            //     System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso");
+            // }
+
+            // System.Console.WriteLine($"A quantidade de livros na pilha é {pilhaLivros.Count}");
             
 
             // Queue<string> lista = new Queue<string>();
@@ -70,11 +105,11 @@ namespace Colecoes
 
             // int valorProcurado = 1;
 
-            // System.Console.WriteLine($"Array com tamanho antes do rezise {numeros.Length}");
+            // System.Console.WriteLine($"Array com tamanho antes do resize {numeros.Length}");
 
             // operacoes.RedimencionarArray(ref numeros, numeros.Length * 2);
 
-            // System.Console.WriteLine($"Array com tamanho depois do rezise {numeros.Length}");
+            // System.Console.WriteLine($"Array com tamanho depois do resize {numeros.Length}");
 
 
 
