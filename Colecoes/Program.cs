@@ -1,4 +1,6 @@
-﻿using Colecoes.Helper;
+﻿using System.Collections;
+using System.Collections.Generic;
+using Colecoes.Helper;
 
 namespace Colecoes
 {
@@ -6,10 +8,64 @@ namespace Colecoes
     {
         static void Main(string[] args)
         {
-            OperacoesArray operacoes = new OperacoesArray();
-            int[] numeros = new int[5] {10,2,8,1,6};
-            int[] numerosCopiados = new int[10];
-            string[] numerosConvertidos = operacoes.convertArray(numeros);
+
+
+            Stack<string> pilhaLivros = new Stack<string>();
+
+            pilhaLivros.Push("Codigo Limpo");
+            pilhaLivros.Push("TDD");
+            pilhaLivros.Push(".NET");
+
+            System.Console.WriteLine($"A quantidade de livros na pilha é {pilhaLivros.Count}");
+
+            while(pilhaLivros.Count > 0)
+            {
+                System.Console.WriteLine($"O próximo livro é {pilhaLivros.Peek()}");
+                System.Console.WriteLine($"{pilhaLivros.Pop()} lido com sucesso");
+            }
+
+            System.Console.WriteLine($"A quantidade de livros na pilha é {pilhaLivros.Count}");
+            
+
+            // Queue<string> lista = new Queue<string>();
+
+            // lista.Enqueue("Gabirel");
+            // lista.Enqueue("José");
+            // lista.Enqueue("Henrique");
+
+            // System.Console.WriteLine($"O tamanho da fila é: {lista.Count}");
+
+            // while(lista.Count > 0)
+            // {
+            //     System.Console.WriteLine($"É a vez de {lista.Peek()}");
+            //     System.Console.WriteLine($"{lista.Dequeue()} Atendido");
+            // }
+
+            // System.Console.WriteLine($"O tamanho da fila é: {lista.Count}");
+
+
+
+            // OperacoesListas opList = new OperacoesListas();
+            // List<string> estados = new List<string>() {"PE", "SP", "RJ"};
+            // string[] estadosArray = new string[2] {"BH", "AL"};
+
+
+
+            // System.Console.WriteLine($"O tamanho da lista é {estados.Count}");
+            // opList.ImprimirLista(estados);
+            // // estados.Remove("PE"); // removendo elemento especificado
+        
+            // estados.AddRange(estadosArray);  // adicionando outra coleção na coleção desejada, desde que seja do mesmo tipo
+            // System.Console.WriteLine($"O tamanho da lista é {estados.Count}");
+            // opList.ImprimirLista(estados);
+
+
+
+
+            // OperacoesArray operacoes = new OperacoesArray();
+            // int[] numeros = new int[5] {10,2,8,1,6};
+            // int[] numerosCopiados = new int[10];
+            // string[] numerosConvertidos = operacoes.convertArray(numeros);
 
 
             // int valorProcurado = 1;

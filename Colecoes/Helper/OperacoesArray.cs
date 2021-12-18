@@ -12,29 +12,29 @@ namespace Colecoes.Helper
             {
                 for (int j = 0; j < array.Length - 1; j++)
                 {
-                    if(array[j] > array[j + 1])                 // se o elemento atual for maior que o proximo
+                    if(array[j] > array[j + 1])                             // se o elemento atual for maior que o proximo
                     {
-                        temp = array[j +1];                     // pega o valor da proxima posição e guarda numa variavel
-                        array[j +1] = array[j];                 // adiciona o valor da posição anterior na proxima posição
-                        array[j] = temp;                        //  pega o valor da variavel e coloca na posição anterior
+                        temp = array[j +1];                                 // pega o valor da proxima posição e guarda numa variavel
+                        array[j +1] = array[j];                             // adiciona o valor da posição anterior na proxima posição
+                        array[j] = temp;                                    //  pega o valor da variavel e coloca na posição anterior
                     }
                 }
             }
         }
         public void ImprimirArray(int[] array)
         {
-            string linha = string.Join(", ", array);            // separando cada posição do meu array por virgula e unindo em uma string
+            string linha = string.Join(", ", array);                        // separando cada posição do meu array por virgula e unindo em uma string
             System.Console.WriteLine(linha);
         }
 
         public void Ordenar(ref int[] array)
         {
-            Array.Sort(array);
+            Array.Sort(array);                                              // Ordenando o array
         }
 
         public void CopiarArray(ref int[] array, ref int[] arrayDestino)
         {
-            Array.Copy(array, arrayDestino, array.Length);
+            Array.Copy(array, arrayDestino, array.Length);                  // Copiando todos os elementos de um array e passando para outro
         }
 
         public bool Existe(int[] array, int valor)
@@ -64,7 +64,7 @@ namespace Colecoes.Helper
 
         public string[] convertArray(int[] array)
         {
-            return Array.ConvertAll(array, element => element.ToString());
+            return Array.ConvertAll(array, element => element.ToString());  // convertendo todos so valores do array de inteiros para outro array de string
         }
     }
 }
