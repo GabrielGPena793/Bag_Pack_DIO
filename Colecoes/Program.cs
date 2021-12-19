@@ -9,17 +9,47 @@ namespace Colecoes
         static void Main(string[] args)
         {
 
-            Dictionary<string,string> estados = new Dictionary<string, string>();
-            estados.Add("PE", "Pernambuco");
-            estados.Add("SP", "São Paulo");
-            estados.Add("Rj", "Rio de Janeiro");
+            int[] arrayNumeros = new int[10] {100, 2, 4, 5, 0, 10, 8, 100, 2, 10};
+
+            int maximo = arrayNumeros.Max();
+            int minimo = arrayNumeros.Min();
+            double medio = arrayNumeros.Average();
+            var soma = arrayNumeros.Sum();
+            var distinto = arrayNumeros.Distinct().ToArray();
+
+            System.Console.WriteLine($"Minimo: {minimo}");
+            System.Console.WriteLine($"Maximo: {maximo}");
+            System.Console.WriteLine($"Medio: {medio}");
+            System.Console.WriteLine($"Soma: {soma}");
+            System.Console.WriteLine($"Array Unico: {string.Join(", ", distinto)}");
+
+
+
+
+            // // pesquisa estilo sql
+            // var numerosParesArray = 
+            //     from num in arrayNumeros
+            //     where num % 2 == 0
+            //     orderby num
+            //     select num;
+
+            // //pesquisa estilo método
+            // var numerosPares = arrayNumeros.Where(num => num % 2 == 0).OrderBy(num => num).ToList();
+
+            // System.Console.WriteLine($"Números retornados pela Query {string.Join(", ",numerosParesArray)}");
+            // System.Console.WriteLine($"Números retornados por Metodo {string.Join(", ",numerosParesArray)}");
+
+            // Dictionary<string,string> estados = new Dictionary<string, string>();
+            // estados.Add("PE", "Pernambuco");
+            // estados.Add("SP", "São Paulo");
+            // estados.Add("Rj", "Rio de Janeiro");
 
             // foreach (var estado in estados)
             // {
             //     System.Console.WriteLine($"Chave: {estado.Key}, Valor: {estado.Value}");
             // }
 
-            string valorProcurado = "ll";
+            // string valorProcurado = "ll";
             // estados.Remove(valorProcurado);
             // System.Console.WriteLine($"Removendo o valor {valorProcurado}");
             
@@ -28,14 +58,14 @@ namespace Colecoes
             //     System.Console.WriteLine($"Chave: {estado.Key}, Valor: {estado.Value}");
             // }
             
-            if(estados.TryGetValue(valorProcurado, out string? estadoEncontrado))
-            {
-                System.Console.WriteLine(estadoEncontrado);
-            }
-            else
-            {
-                System.Console.WriteLine("Estado não encontarado");
-            }
+            // if(estados.TryGetValue(valorProcurado, out string? estadoEncontrado))
+            // {
+            //     System.Console.WriteLine(estadoEncontrado);
+            // }
+            // else
+            // {
+            //     System.Console.WriteLine("Estado não encontarado");
+            // }
             // System.Console.WriteLine("Valor atual");
             // System.Console.WriteLine(estados[valorProcurado]);
 
